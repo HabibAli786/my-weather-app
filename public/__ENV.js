@@ -1,0 +1,1 @@
+window.__ENV = {"REACT_APP_HELLO":"This is your number welcome"};

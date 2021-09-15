@@ -1,0 +1,583 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="139" lines-covered="117" line-rate="0.8417" branches-valid="45" branches-covered="35" branch-rate="0.7778" timestamp="1617893324940" complexity="0" version="0.1">
+  <sources>
+    <source>C:\Users\077863\Documents\my-weather-app</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="0.0909" branch-rate="0">
+      <classes>
+        <class name="App.js" filename="src\App.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="App" hits="7" signature="()V">
+              <lines>
+                <line number="13" hits="7"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="7" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src\index.js" line-rate="0" branch-rate="0">
+          <methods>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="false"/>
+            <line number="15" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="reportWebVitals.js" filename="src\reportWebVitals.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="1" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="8" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components" line-rate="0.8974" branch-rate="0.8946999999999999">
+      <classes>
+        <class name="About.js" filename="src\components\About.js" line-rate="0.7778" branch-rate="1">
+          <methods>
+            <method name="About" hits="2" signature="()V">
+              <lines>
+                <line number="9" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="38" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="12" signature="()V">
+              <lines>
+                <line number="41" hits="12"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="2" signature="()V">
+              <lines>
+                <line number="55" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="2" signature="()V">
+              <lines>
+                <line number="59" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="61" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="2" branch="false"/>
+            <line number="25" hits="2" branch="false"/>
+            <line number="27" hits="2" branch="false"/>
+            <line number="38" hits="0" branch="false"/>
+            <line number="41" hits="12" branch="false"/>
+            <line number="55" hits="2" branch="false"/>
+            <line number="59" hits="2" branch="false"/>
+            <line number="60" hits="2" branch="false"/>
+            <line number="61" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Contact.js" filename="src\components\Contact.js" line-rate="0.9643" branch-rate="0.8571">
+          <methods>
+            <method name="(anonymous_0)" hits="4" signature="()V">
+              <lines>
+                <line number="10" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="1" signature="()V">
+              <lines>
+                <line number="39" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="8" signature="()V">
+              <lines>
+                <line number="58" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="8" signature="()V">
+              <lines>
+                <line number="118" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="3" signature="()V">
+              <lines>
+                <line number="126" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="1" signature="()V">
+              <lines>
+                <line number="128" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="1" signature="()V">
+              <lines>
+                <line number="129" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="1" signature="()V">
+              <lines>
+                <line number="130" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="1" signature="()V">
+              <lines>
+                <line number="131" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_9)" hits="1" signature="()V">
+              <lines>
+                <line number="132" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="3" branch="false"/>
+            <line number="11" hits="4" branch="false"/>
+            <line number="12" hits="4" branch="false"/>
+            <line number="13" hits="4" branch="false"/>
+            <line number="17" hits="4" branch="true" condition-coverage="80% (4/5)"/>
+            <line number="19" hits="1" branch="false"/>
+            <line number="20" hits="1" branch="false"/>
+            <line number="22" hits="1" branch="false"/>
+            <line number="23" hits="1" branch="false"/>
+            <line number="25" hits="1" branch="false"/>
+            <line number="26" hits="1" branch="false"/>
+            <line number="28" hits="1" branch="false"/>
+            <line number="29" hits="1" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="39" hits="3" branch="false"/>
+            <line number="40" hits="1" branch="false"/>
+            <line number="51" hits="1" branch="false"/>
+            <line number="53" hits="1" branch="false"/>
+            <line number="55" hits="1" branch="false"/>
+            <line number="59" hits="8" branch="false"/>
+            <line number="118" hits="8" branch="false"/>
+            <line number="126" hits="2" branch="false"/>
+            <line number="127" hits="3" branch="false"/>
+            <line number="128" hits="1" branch="false"/>
+            <line number="129" hits="1" branch="false"/>
+            <line number="130" hits="1" branch="false"/>
+            <line number="131" hits="1" branch="false"/>
+            <line number="132" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="Home.js" filename="src\components\Home.js" line-rate="0.5556" branch-rate="1">
+          <methods>
+            <method name="Home" hits="3" signature="()V">
+              <lines>
+                <line number="5" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="20" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="21" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="3" signature="()V">
+              <lines>
+                <line number="27" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="3" signature="()V">
+              <lines>
+                <line number="31" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="33" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="34" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="3" branch="false"/>
+            <line number="13" hits="3" branch="false"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="27" hits="3" branch="false"/>
+            <line number="31" hits="1" branch="false"/>
+            <line number="32" hits="3" branch="false"/>
+            <line number="33" hits="0" branch="false"/>
+            <line number="34" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="NavbarMenu.js" filename="src\components\NavbarMenu.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="NavbarMenu" hits="6" signature="()V">
+              <lines>
+                <line number="5" hits="6"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="6" branch="false"/>
+          </lines>
+        </class>
+        <class name="NoMatch.js" filename="src\components\NoMatch.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="NoMatch" hits="1" signature="()V">
+              <lines>
+                <line number="2" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="Weather.js" filename="src\components\Weather.js" line-rate="0.963" branch-rate="1">
+          <methods>
+            <method name="Weather" hits="13" signature="()V">
+              <lines>
+                <line number="9" hits="13"/>
+              </lines>
+            </method>
+            <method name="checkResponse" hits="2" signature="()V">
+              <lines>
+                <line number="21" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="8" signature="()V">
+              <lines>
+                <line number="31" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="2" signature="()V">
+              <lines>
+                <line number="34" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="2" signature="()V">
+              <lines>
+                <line number="35" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="36" hits="0"/>
+              </lines>
+            </method>
+            <method name="cleanup" hits="8" signature="()V">
+              <lines>
+                <line number="39" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="2" signature="()V">
+              <lines>
+                <line number="45" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="2" signature="()V">
+              <lines>
+                <line number="68" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_9)" hits="15" signature="()V">
+              <lines>
+                <line number="98" hits="15"/>
+              </lines>
+            </method>
+            <method name="(anonymous_10)" hits="4" signature="()V">
+              <lines>
+                <line number="105" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_11)" hits="10" signature="()V">
+              <lines>
+                <line number="107" hits="10"/>
+              </lines>
+            </method>
+            <method name="(anonymous_12)" hits="2" signature="()V">
+              <lines>
+                <line number="108" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_13)" hits="2" signature="()V">
+              <lines>
+                <line number="109" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_14)" hits="1" signature="()V">
+              <lines>
+                <line number="110" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="13" branch="false"/>
+            <line number="22" hits="2" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="23" hits="1" branch="false"/>
+            <line number="25" hits="1" branch="false"/>
+            <line number="31" hits="13" branch="false"/>
+            <line number="32" hits="8" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="33" hits="2" branch="false"/>
+            <line number="34" hits="2" branch="false"/>
+            <line number="35" hits="2" branch="false"/>
+            <line number="36" hits="0" branch="false"/>
+            <line number="39" hits="8" branch="false"/>
+            <line number="40" hits="8" branch="false"/>
+            <line number="45" hits="13" branch="false"/>
+            <line number="46" hits="2" branch="false"/>
+            <line number="48" hits="2" branch="false"/>
+            <line number="49" hits="2" branch="false"/>
+            <line number="59" hits="13" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="60" hits="11" branch="false"/>
+            <line number="68" hits="2" branch="false"/>
+            <line number="94" hits="2" branch="false"/>
+            <line number="98" hits="15" branch="false"/>
+            <line number="105" hits="2" branch="false"/>
+            <line number="106" hits="4" branch="false"/>
+            <line number="107" hits="10" branch="false"/>
+            <line number="108" hits="2" branch="false"/>
+            <line number="109" hits="2" branch="false"/>
+            <line number="110" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="store.js" filename="src\components\store.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="7" hits="4" branch="false"/>
+          </lines>
+        </class>
+        <class name="test.utils.js" filename="src\components\test.utils.js" line-rate="1" branch-rate="0.5">
+          <methods>
+            <method name="render" hits="1" signature="()V">
+              <lines>
+                <line number="9" hits="1"/>
+              </lines>
+            </method>
+            <method name="Wrapper" hits="1" signature="()V">
+              <lines>
+                <line number="18" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="false"/>
+            <line number="21" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components.actions" line-rate="0.9167000000000001" branch-rate="1">
+      <classes>
+        <class name="HomeAction.js" filename="src\components\actions\HomeAction.js" line-rate="0.5" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="1" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="8" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="aboutAction.js" filename="src\components\actions\aboutAction.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="1" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="3" branch="false"/>
+          </lines>
+        </class>
+        <class name="contactAction.js" filename="src\components\actions\contactAction.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="1" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="8" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="3" signature="()V">
+              <lines>
+                <line number="15" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="3" signature="()V">
+              <lines>
+                <line number="22" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="3" signature="()V">
+              <lines>
+                <line number="29" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="3" branch="false"/>
+            <line number="8" hits="2" branch="false"/>
+            <line number="9" hits="3" branch="false"/>
+            <line number="15" hits="2" branch="false"/>
+            <line number="16" hits="3" branch="false"/>
+            <line number="22" hits="2" branch="false"/>
+            <line number="23" hits="3" branch="false"/>
+            <line number="29" hits="2" branch="false"/>
+            <line number="30" hits="3" branch="false"/>
+          </lines>
+        </class>
+        <class name="weatherAction.js" filename="src\components\actions\weatherAction.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="12" signature="()V">
+              <lines>
+                <line number="1" hits="12"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="4" signature="()V">
+              <lines>
+                <line number="8" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="4" signature="()V">
+              <lines>
+                <line number="15" hits="4"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="3" signature="()V">
+              <lines>
+                <line number="22" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="12" branch="false"/>
+            <line number="8" hits="2" branch="false"/>
+            <line number="9" hits="4" branch="false"/>
+            <line number="15" hits="2" branch="false"/>
+            <line number="16" hits="4" branch="false"/>
+            <line number="22" hits="2" branch="false"/>
+            <line number="23" hits="3" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.components.reducers" line-rate="0.9231" branch-rate="0.9">
+      <classes>
+        <class name="HomeReducer.js" filename="src\components\reducers\HomeReducer.js" line-rate="0.6" branch-rate="0.5">
+          <methods>
+            <method name="(anonymous_0)" hits="32" signature="()V">
+              <lines>
+                <line number="1" hits="32"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="4" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="2" hits="32" branch="true" condition-coverage="33.33333333333333% (1/3)"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="8" hits="32" branch="false"/>
+          </lines>
+        </class>
+        <class name="aboutReducer.js" filename="src\components\reducers\aboutReducer.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="35" signature="()V">
+              <lines>
+                <line number="1" hits="35"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="4" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="2" hits="35" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="6" hits="34" branch="false"/>
+          </lines>
+        </class>
+        <class name="contactReducer.js" filename="src\components\reducers\contactReducer.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="38" signature="()V">
+              <lines>
+                <line number="9" hits="38"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="4" branch="false"/>
+            <line number="9" hits="4" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="10" hits="38" branch="true" condition-coverage="100% (6/6)"/>
+            <line number="12" hits="2" branch="false"/>
+            <line number="17" hits="2" branch="false"/>
+            <line number="22" hits="2" branch="false"/>
+            <line number="27" hits="2" branch="false"/>
+            <line number="32" hits="2" branch="false"/>
+            <line number="37" hits="28" branch="false"/>
+          </lines>
+        </class>
+        <class name="weatherReducer.js" filename="src\components\reducers\weatherReducer.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="32" signature="()V">
+              <lines>
+                <line number="8" hits="32"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="4" branch="false"/>
+            <line number="8" hits="4" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="9" hits="32" branch="true" condition-coverage="100% (5/5)"/>
+            <line number="11" hits="10" branch="false"/>
+            <line number="16" hits="2" branch="false"/>
+            <line number="21" hits="2" branch="false"/>
+            <line number="26" hits="1" branch="false"/>
+            <line number="31" hits="17" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

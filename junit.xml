@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="41" failures="0" errors="0" time="11.771">
+  <testsuite name="src\components\Contact.test.js" errors="0" failures="0" skipped="0" timestamp="2021-04-08T14:48:36" time="3.372" tests="18">
+    <testcase classname="Contact store Contact page renders correctly" name="Contact store Contact page renders correctly" time="0.085">
+    </testcase>
+    <testcase classname="Contact store Enter all details into form" name="Contact store Enter all details into form" time="0.059">
+    </testcase>
+    <testcase classname="contact actions returns the correct action for set_name" name="contact actions returns the correct action for set_name" time="0.002">
+    </testcase>
+    <testcase classname="contact actions returns the correct action for set_surname" name="contact actions returns the correct action for set_surname" time="0.001">
+    </testcase>
+    <testcase classname="contact actions returns the correct action for set_address" name="contact actions returns the correct action for set_address" time="0.001">
+    </testcase>
+    <testcase classname="contact actions returns the correct action for set_phone" name="contact actions returns the correct action for set_phone" time="0">
+    </testcase>
+    <testcase classname="contact actions returns the correct action for set_submitted" name="contact actions returns the correct action for set_submitted" time="0">
+    </testcase>
+    <testcase classname="contact reducer returns initial state" name="contact reducer returns initial state" time="0.001">
+    </testcase>
+    <testcase classname="contact reducer returns updated state for set_name" name="contact reducer returns updated state for set_name" time="0.001">
+    </testcase>
+    <testcase classname="contact reducer returns updated state for set_surname" name="contact reducer returns updated state for set_surname" time="0.001">
+    </testcase>
+    <testcase classname="contact reducer returns updated state for set_address" name="contact reducer returns updated state for set_address" time="0.001">
+    </testcase>
+    <testcase classname="contact reducer returns updated state for set_phone" name="contact reducer returns updated state for set_phone" time="0">
+    </testcase>
+    <testcase classname="contact reducer returns updated state for set_submitted" name="contact reducer returns updated state for set_submitted" time="0.004">
+    </testcase>
+    <testcase classname="contact store returns correct payload for set_name" name="contact store returns correct payload for set_name" time="0.002">
+    </testcase>
+    <testcase classname="contact store returns correct payload for set_surname" name="contact store returns correct payload for set_surname" time="0.002">
+    </testcase>
+    <testcase classname="contact store returns correct payload for set_address" name="contact store returns correct payload for set_address" time="0.001">
+    </testcase>
+    <testcase classname="contact store returns correct payload for set_phone" name="contact store returns correct payload for set_phone" time="0.001">
+    </testcase>
+    <testcase classname="contact store returns correct payload for set_submitted" name="contact store returns correct payload for set_submitted" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\components\Weather.test.js" errors="0" failures="0" skipped="0" timestamp="2021-04-08T14:48:36" time="3.794" tests="11">
+    <testcase classname="Integration testing for Weather Weather page renders correctly" name="Integration testing for Weather Weather page renders correctly" time="0.072">
+    </testcase>
+    <testcase classname="Integration testing for Weather Test correct API call" name="Integration testing for Weather Test correct API call" time="0.037">
+    </testcase>
+    <testcase classname="Integration testing for Weather Test bad API call" name="Integration testing for Weather Test bad API call" time="0.02">
+    </testcase>
+    <testcase classname="returns the correct action when called set_input action" name="returns the correct action when called set_input action" time="0.001">
+    </testcase>
+    <testcase classname="returns the correct action when called set_apiData action" name="returns the correct action when called set_apiData action" time="0">
+    </testcase>
+    <testcase classname="returns the correct action when called set_data action" name="returns the correct action when called set_data action" time="0">
+    </testcase>
+    <testcase classname="returns the correct action when called set_error action" name="returns the correct action when called set_error action" time="0">
+    </testcase>
+    <testcase classname="weather store returns correct payload for set_input" name="weather store returns correct payload for set_input" time="0.001">
+    </testcase>
+    <testcase classname="weather store returns correct payload for set_apiData" name="weather store returns correct payload for set_apiData" time="0.001">
+    </testcase>
+    <testcase classname="weather store returns correct payload for set_data" name="weather store returns correct payload for set_data" time="0">
+    </testcase>
+    <testcase classname="weather store returns correct payload for set_error" name="weather store returns correct payload for set_error" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\components\About.test.js" errors="0" failures="0" skipped="0" timestamp="2021-04-08T14:48:36" time="4.013" tests="5">
+    <testcase classname="get_id action returns the correct action" name="get_id action returns the correct action" time="0.005">
+    </testcase>
+    <testcase classname="about reducer returns initial state" name="about reducer returns initial state" time="0.001">
+    </testcase>
+    <testcase classname="about reducer handles GET_ID_CITY" name="about reducer handles GET_ID_CITY" time="0.001">
+    </testcase>
+    <testcase classname="about store returns correct payload for get_id" name="about store returns correct payload for get_id" time="0.002">
+    </testcase>
+    <testcase classname="connected about component Renders the connected About with updated state" name="connected about component Renders the connected About with updated state" time="0.061">
+    </testcase>
+  </testsuite>
+  <testsuite name="src\App.test.js" errors="0" failures="0" skipped="0" timestamp="2021-04-08T14:48:36" time="4.222" tests="7">
+    <testcase classname=" renders the welcome message on the default page" name=" renders the welcome message on the default page" time="0.049">
+    </testcase>
+    <testcase classname=" navbar has the correct links for each" name=" navbar has the correct links for each" time="0.015">
+    </testcase>
+    <testcase classname=" correct date is shown on page" name=" correct date is shown on page" time="0.01">
+    </testcase>
+    <testcase classname=" router test for about page" name=" router test for about page" time="0.019">
+    </testcase>
+    <testcase classname=" router test for weather page" name=" router test for weather page" time="0.015">
+    </testcase>
+    <testcase classname=" router test for contact page" name=" router test for contact page" time="0.017">
+    </testcase>
+    <testcase classname=" router test for a bad page" name=" router test for a bad page" time="0.004">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+{
+    "london": {
+        "Temp": 15,
+        "realfeel": 11,
+        "windGusts": "33 km/h"
+    },
+    "new York": {
+        "Temp": -1,
+        "realfeel": -1,
+        "windGusts": "10 km/h"
+    },
+    "manchester": {
+        "temp": 8,
+        "realfeel": 4,
+        "windGusts": "38 km/h"
+    },
+    "cario": {
+        "temp": 39,
+        "realfeel": 20,
+        "windGusts": "18 km/h"
+    },
+    "dublin": {
+        "temp": 20,
+        "realfeel": 10,
+        "windGusts": "38 km/h"
+    },
+    "coventry": {
+        "temp": 5,
+        "realfeel": 4,
+        "windGusts": "30 km/h"
+    },
+    "warwick": {
+        "temp": 8,
+        "realfeel": 4,
+        "windGusts": "38 km/h"
+    }
+}
